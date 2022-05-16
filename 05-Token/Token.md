@@ -29,6 +29,7 @@ mapping(address => uint) balances;
 ```
 
 # 解决方案
+需要通过合约进行调用，直接通过transfer事件会失败，想不通
 
 ```
  await   contract.transfer(player, 21)
